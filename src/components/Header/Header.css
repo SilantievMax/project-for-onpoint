@@ -1,0 +1,31 @@
+.home {
+    position: fixed;
+    display: flex;
+    margin-left: 68px;
+    margin-top: 28px;
+}
+
+.home-inl {
+    display: inline-block;
+    margin: 0;
+}
+
+.home img {
+    width: 22px;
+    height: 100%;
+}
+
+.home h1 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 23px;
+    margin-left: 22px;
+}
+
+.home h2 {
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 22px;
+    margin-top: -3px;
+}

@@ -1,0 +1,8 @@
+.footer img {
+    /* display: block; */
+    position: fixed;
+    width: 58px;
+    bottom: 0;
+    margin-bottom: 14px;
+    margin-left: 68px;
+}
