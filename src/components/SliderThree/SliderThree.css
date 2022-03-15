@@ -27,7 +27,6 @@
 }
 
 .slider-three-container {
-    background-color: rgb(179, 176, 176);
     max-width: 700px;
     height: 264px;
     margin-left: 245px;
@@ -48,8 +47,16 @@
     padding-left: 70px;
 }
 
-.slider-three-img-icon2 {
+.slider-three-img {
     position: relative;
+    bottom: 645px;
+}
+
+.slider-three-abs {
+    position: relative;
+}
+
+.slider-three-img-icon2 {
     width: 67px;
     top: -271px;
     left: 74px;
@@ -93,10 +100,88 @@
     margin-top: 34px;
 }
 
-.slider-three-img-bottle {
-    position: relative;
-    bottom: 645px;
-    width: 230px;
-    top: -610px;
-    left: -220px;
+.slider-three-two-container {
+    display: inline-block;
+}
+
+.slider-three-two-container span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    display: table-cell;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #000;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ff94ba;
+    display: inline-block;
+    margin: 15px;
+}
+
+.slider-three-two-container p {
+    display: table-cell;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+.slider-three-img-bottle5 {
+    width: 234px;
+    top: 78px;
+    left: -215px;
+}
+
+.slider-three-img-bottle1 {
+    width: 37px;
+    top: -589px;
+    left: 181px;
+}
+
+.slider-three-img-bottle2 {
+    width: 57px;
+    top: -58px;
+    left: 210px;
+}
+
+.slider-three-img-bottle3 {
+    width: 110px;
+    top: -278px;
+    left: 86px;
+}
+
+.slider-three-img-bottle4 {
+    width: 40px;
+    top: -464px;
+    left: -141px;
+}
+
+.slider-three-img-bottle6 {
+    width: 71px;
+    top: -469px;
+    left: -311px;
+}
+
+.slider-three-img-bottle7 {
+    width: 34px;
+    top: -199px;
+    left: -548px;
+}
+
+.slider-three-img-bottle8 {
+    width: 76px;
+    top: -56px;
+    left: -572px;
+}
+
+.slider-three-img-bottle9 {
+    width: 137px;
+    top: 77px;
+    left: -465px;
 }

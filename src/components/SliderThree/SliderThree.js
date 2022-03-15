@@ -1,8 +1,11 @@
 import React from "react";
-import './SliderThree.css'
-import icon2 from '../../img/icon2.png'
-import icon1 from '../../img/icon1.png'
-import bottle from '../../img/bottle.png'
+import './SliderThree.css';
+import icon2 from '../../img/icon2.png';
+import icon1 from '../../img/icon1.png';
+import bottle from '../../img/bottle.png';
+import bubbl1 from '../../img/buubble-min.png';
+import bubbl2 from '../../img/buubble-red.png';
+import bubbl3 from '../../img/buubble-max.png';
 
 export default function SliderThree() { 
     return (
@@ -24,10 +27,23 @@ export default function SliderThree() {
                         <img src={icon1} className="slider-three-img-icon1 slider-three-abs" alt="slider-one-img-icon1"/>
                     </div>
                     <div>
+                        <span>+</span>
+                        <p>Подробние</p>
                     </div>
                 </div>
-                <img src={bottle} className="slider-three-img-bottle slider-three-abs" alt="slider-one-img-bottle"/>
             </div>
+            <div className="slider-three-img">
+                <img src={bubbl1} className="slider-three-img-bottle1 slider-three-abs" alt="slider-one-img-bottle"/>
+                <img src={bubbl1} className="slider-three-img-bottle2 slider-three-abs" alt="slider-one-img-bottle"/>
+                <img src={bubbl2} className="slider-three-img-bottle3 slider-three-abs" alt="slider-one-img-bottle"/>
+                <img src={bubbl2} className="slider-three-img-bottle4 slider-three-abs" alt="slider-one-img-bottle"/>
+                <img src={bottle} className="slider-three-img-bottle5 slider-three-abs" alt="slider-one-img-bubbl1"/>
+                <img src={bubbl1} className="slider-three-img-bottle6 slider-three-abs" alt="slider-one-img-bottle"/>
+                <img src={bubbl1} className="slider-three-img-bottle7 slider-three-abs" alt="slider-one-img-bottle"/>
+                <img src={bubbl2} className="slider-three-img-bottle8 slider-three-abs" alt="slider-one-img-bottle"/>
+                <img src={bubbl3} className="slider-three-img-bottle9 slider-three-abs" alt="slider-one-img-bottle"/>
+            </div>
+            
         </div>
     );
   }

@@ -5,7 +5,7 @@ export default function SliderTwo() {
     return (
         <div className="slider-two">
             <div className="slider-two-text">
-                <h2>Тексе<br />сообщения</h2>
+                <h2>Текct<br />сообщения</h2>
             </div>
             <div className="slider-two-scroll">
                 <p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. 
