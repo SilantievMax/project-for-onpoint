@@ -5,19 +5,19 @@
     height: 100%;
 }
 
-.slider-text {
+.slider-one-text {
     margin-left: 68px;
     padding-top: 164px;
 }
 
-.slider-text p:nth-child(1) {
+.slider-one-text p:nth-child(1) {
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 200;
     text-transform: uppercase;
 }
 
-.slider-text p:nth-child(2) {
+.slider-one-text p:nth-child(2) {
     font-size: 100px;
     margin-top: 15px;
     line-height: 116%;

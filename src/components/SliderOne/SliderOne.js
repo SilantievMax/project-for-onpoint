@@ -14,7 +14,7 @@ import Layer9 from '../../img/Layer9.png'
 export default function SliderOne() { 
     return (
         <div className="slider-one">
-            <div className="slider-text">
+            <div className="slider-one-text">
                 <p>привет,</p>
                 <p>это <strong>не</strong> <br />коммерческое <br />задание</p>
                 <button className="slider-one-bt ">

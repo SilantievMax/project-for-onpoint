@@ -5,6 +5,7 @@
     scroll-snap-type: x mandatory;
     display: flex;
     flex-wrap: nowrap;
+    scroll-snap-stop: always;
 }
 
 .slider-item {
@@ -14,9 +15,6 @@
     scroll-snap-align: start;
 }
 
-.slider-item:nth-child(2) {
-    background-color: rgb(250, 215, 192);
-}
-.slider-item:nth-child(3) {
-    background-color: rgb(213, 255, 179);
-}
+/* .slider-item:nth-child(2) {
+    
+} */
